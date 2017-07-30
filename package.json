@@ -2,21 +2,25 @@
   "name": "p2p-with-socket-sample-project-node",
   "version": "1.0.0",
   "description": "Javascript project that create a peer-to-peer connection through socket.",
+  "author": "Clément Gayot",
+  "homepage": "https://github.com/Striffly/p2p-with-socket-sample-project",
+  "license": "ISC",
   "main": "server.js",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  },
+  "devDependencies": {
+    "express": "^4.15.3",
+    "http": "0.0.0",
+    "sockjs": "^0.3.18"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon lib/index.js --exec babel-node --presets es2015,stage-2",
     "build": "babel lib/index.js -d dist --presets es2015,stage-2",
     "serve": "node dist/server.js"
   },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "express": "^4.15.3",
-    "http": "0.0.0",
-    "sockjs": "^0.3.18"
-  },
-  "dependencies": {
-    "xmlhttprequest": "^1.8.0"
+  "bugs": {
+    "url": "https://github.com/Striffly/p2p-with-socket-sample-project/issues"
   }
 }
