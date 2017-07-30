@@ -13,5 +13,6 @@ Ce projet utilise les librairies [sockjs](https://github.com/sockjs) et [simple-
 3. Exécutez la commande `gulp build` depuis le dossier **"website"**
 4. Lancez le serveur Node en exécutant la commande `node server.js` depuis le dossier racine
 5. Ouvrez deux onglets pointants vers l'adresse url du serveur node (sans le préfixe)
+<br><br>
 
 **Si vous aimez ce projet, n'hésitez pas à ajouter une star à celui-ci, merci !**
