@@ -15,10 +15,7 @@
     "sockjs": "^0.3.18"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon lib/index.js --exec babel-node --presets es2015,stage-2",
-    "build": "babel lib/index.js -d dist --presets es2015,stage-2",
-    "serve": "node dist/server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bugs": {
     "url": "https://github.com/Striffly/p2p-with-socket-sample-project/issues"
